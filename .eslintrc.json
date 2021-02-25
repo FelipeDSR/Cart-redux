@@ -45,6 +45,7 @@
           "tsx": "never"
         }
       ],
+      "camelcase": ["error", {"allow": ["aa_bb"]}],
       "prettier/prettier": "error"
     },
     "settings": {

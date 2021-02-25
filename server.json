@@ -1,0 +1,66 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Raspberry Pi 4",
+      "price": 35.25,
+      "image_url": "https://cdn.shopify.com/s/files/1/0174/1800/products/raspberry-pi-4-1_300x300.jpg?v=1590649458"
+    },
+    {
+      "id": 2,
+      "title": "Playstation 5",
+      "price": 499.90,
+      "image_url": "https://gmedia.playstation.com/is/image/SIEPDC/playstation-5-with-dualsense-front-product-shot-01-ps5-en-30jul20?$native--t$"
+    },
+    {
+      "id": 3,
+      "title": "Alienware Monitor",
+      "price": 999.90,
+      "image_url": "https://i.dell.com/is/image/DellContent//content/dam/global-asset-library/Products/peripherals_dell/Monitors/alienware/aw2521hf/aw2521hf_cfp_00030rf095_gy.psd?fmt=pjpg&pscan=auto&scl=1&hei=402&wid=479&qlt=95,0&resMode=sharp2&op_usm=1.75,0.3,2,0&size=479,402"
+    },
+    {
+      "id": 4,
+      "title": "Macbook Air",
+      "price": 1080.50,
+      "image_url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/macbook-air-space-gray-select-201810?wid=1200&hei=630&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1603332211000"
+    },
+    {
+      "id": 5,
+      "title": "Iphone",
+      "price": 800.00,
+      "image_url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-12-pro-family-hero?wid=940&hei=1112&fmt=jpeg&qlt=80&op_usm=0.5,0.5&.v=1604021663000"
+    },
+    {
+      "id": 6,
+      "title": "Airpods",
+      "price": 100.00,
+      "image_url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MWP22?wid=2000&hei=2000&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591634795000"
+    }
+  ],
+  "stock": [
+    {
+      "id": 1,
+      "quantity": 10
+    },
+    {
+      "id": 2,
+      "quantity": 0
+    },
+    {
+      "id": 3,
+      "quantity": 3
+    },
+    {
+      "id": 4,
+      "quantity": 1
+    },
+    {
+      "id": 5,
+      "quantity": 2
+    },
+    {
+      "id": 6,
+      "quantity": 5
+    }
+  ]
+}
