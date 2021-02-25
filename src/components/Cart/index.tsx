@@ -4,7 +4,7 @@ const HelloWorld: React.FC = () => (
   <div
     style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}
   >
-    <h1>Hello World!</h1>
+    <h1>cart</h1>
   </div>
 );
 

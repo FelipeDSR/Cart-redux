@@ -3,11 +3,11 @@ import { Switch } from 'react-router-dom';
 
 import Route from './Route';
 
-import HelloWorld from '../components/HelloWorld';
+import Cart from '../components/Cart';
 
 const Routes: React.FC = () => (
   <Switch>
-    <Route path="/" component={HelloWorld} />
+    <Route path="/" component={Cart} />
   </Switch>
 );
 

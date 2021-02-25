@@ -1,5 +1,5 @@
 {
-  "name": "boilerplate-react-typescript",
+  "name": "cart-redux",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,9 +12,11 @@
     "@types/react-dom": "^16.9.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-redux": "^7.2.2",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
     "react-spring": "^8.0.27",
+    "redux": "^4.0.5",
     "styled-components": "^5.1.1",
     "typescript": "~3.7.2"
   },
@@ -37,6 +39,7 @@
     ]
   },
   "devDependencies": {
+    "@types/react-redux": "^7.1.16",
     "@types/react-router-dom": "^5.1.5",
     "@types/styled-components": "^5.1.0",
     "@typescript-eslint/eslint-plugin": "^3.5.0",

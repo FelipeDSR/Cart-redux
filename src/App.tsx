@@ -1,16 +1,21 @@
 import React from 'react';
+import { Provider } from 'react-redux';
 import { BrowserRouter as Router } from 'react-router-dom';
 
 import GlobalStyle from './styles/global';
 
+import store from './store';
+
 import Routes from './routes';
 
 const App: React.FC = () => (
-  <Router>
-    <Routes />
+  <Provider store={store}>
+    <Router>
+      <Routes />
 
-    <GlobalStyle />
-  </Router>
+      <GlobalStyle />
+    </Router>
+  </Provider>
 );
 
 export default App;
