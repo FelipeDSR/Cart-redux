@@ -3,11 +3,11 @@ import { Switch } from 'react-router-dom';
 
 import Route from './Route';
 
-import Cart from '../components/Cart';
+import Catalog from '../components/Catalog';
 
 const Routes: React.FC = () => (
   <Switch>
-    <Route path="/" component={Cart} />
+    <Route path="/" component={Catalog} />
   </Switch>
 );
 

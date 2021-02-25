@@ -1,11 +1,16 @@
 import React from 'react';
+import { useSelector } from 'react-redux';
 
-const HelloWorld: React.FC = () => (
-  <div
-    style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}
-  >
-    <h1>cart</h1>
-  </div>
-);
+const Cart: React.FC = () => {
+  const store = useSelector(state => state);
 
-export default HelloWorld;
+  console.log(store);
+
+  return (
+    <div>
+      <h1>cart</h1>
+    </div>
+  );
+};
+
+export default Cart;
