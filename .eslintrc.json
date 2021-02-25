@@ -45,8 +45,9 @@
           "tsx": "never"
         }
       ],
-      "camelcase": ["error", {"allow": ["aa_bb"]}],
-      "prettier/prettier": "error"
+      "camelcase": "off",
+      "prettier/prettier": "error",
+      "no-param-reassign": ["error", { "props": false }]
     },
     "settings": {
       "import/resolver": {
