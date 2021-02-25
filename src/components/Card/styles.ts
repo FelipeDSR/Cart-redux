@@ -23,4 +23,9 @@ export const Container = styled.article`
     padding: 5px 10px;
     margin-top: 10px;
   }
+
+  .out-of-stock {
+    color: grey;
+    font-style: italic;
+  }
 `;

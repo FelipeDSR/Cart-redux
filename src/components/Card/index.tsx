@@ -1,8 +1,9 @@
 import React, { useCallback } from 'react';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 
+import { IState } from '../../store';
 import { IProduct } from '../../store/modules/cart/types';
-import { addProductToCart } from '../../store/modules/cart/actions';
+import { addProductToCartRequest } from '../../store/modules/cart/actions';
 
 import { Container } from './styles';
 
@@ -13,20 +14,28 @@ interface CardProps {
 const Card: React.FC<CardProps> = ({ product }) => {
   const dispatch = useDispatch();
 
+  const hasFailedStockCheck = useSelector<IState, boolean>(state => {
+    return state.cart.failedStockCheck.includes(product.id);
+  });
+
   const handleAddProductToCart = useCallback(() => {
-    dispatch(addProductToCart(product));
+    dispatch(addProductToCartRequest(product));
   }, [dispatch, product]);
 
   return (
     <Container>
       <img src={product.image_url} alt="product" />
       <strong className="title">{product.title}</strong>
-      <strong className="price">
-        {Intl.NumberFormat('en-US', {
-          style: 'currency',
-          currency: 'USD',
-        }).format(product.price)}
-      </strong>
+      {hasFailedStockCheck ? (
+        <strong className="out-of-stock">Out of stock</strong>
+      ) : (
+        <strong className="price">
+          {Intl.NumberFormat('en-US', {
+            style: 'currency',
+            currency: 'USD',
+          }).format(product.price)}
+        </strong>
+      )}
       <button type="button" onClick={handleAddProductToCart}>
         Comprar
       </button>
