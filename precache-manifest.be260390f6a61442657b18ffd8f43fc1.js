@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6cf97e47baf0cbf0c0dac8e1d0c9e2b9",
+    "revision": "22dab3deb9807b3598333783449e4dae",
     "url": "/Cart-redux/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Cart-redux/static/js/2.5cb21f9e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8768569bb91c6096b73e",
-    "url": "/Cart-redux/static/js/main.4dddc501.chunk.js"
+    "revision": "d0bde26612c1a3205bf1",
+    "url": "/Cart-redux/static/js/main.81cc5ce3.chunk.js"
   },
   {
     "revision": "d4388cc695325d7e7ee0",
