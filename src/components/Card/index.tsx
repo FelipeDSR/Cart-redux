@@ -30,9 +30,9 @@ const Card: React.FC<CardProps> = ({ product }) => {
         <strong className="out-of-stock">Out of stock</strong>
       ) : (
         <strong className="price">
-          {Intl.NumberFormat('en-US', {
+          {Intl.NumberFormat('pt-BR', {
             style: 'currency',
-            currency: 'USD',
+            currency: 'BRL',
           }).format(product.price)}
         </strong>
       )}

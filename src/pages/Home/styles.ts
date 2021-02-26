@@ -6,8 +6,9 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+`;
 
-  main + main {
-    margin-top: 40px;
-  }
+export const Title = styled.h2`
+  margin-top: 20px;
+  margin-bottom: 20px;
 `;
