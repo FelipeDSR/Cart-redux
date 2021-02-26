@@ -27,7 +27,7 @@ const Card: React.FC<CardProps> = ({ product }) => {
       <img src={product.image_url} alt="product" />
       <strong className="title">{product.title}</strong>
       {hasFailedStockCheck ? (
-        <strong className="out-of-stock">Out of stock</strong>
+        <strong className="out-of-stock">Sem estoque</strong>
       ) : (
         <strong className="price">
           {Intl.NumberFormat('pt-BR', {
