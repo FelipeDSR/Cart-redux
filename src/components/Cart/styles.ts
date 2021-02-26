@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
   box-shadow: 2px 2px 11px 1px rgba(0, 0, 0, 0.2);
   width: 315px;
-  overflow: scroll;
+  overflow-x: scroll;
 
   @media screen and (min-width: 768px) {
     width: 570px;
@@ -17,6 +17,7 @@ export const Container = styled.div`
 
   @media screen and (min-width: 1200px) {
     width: 795px;
+    overflow-x: unset;
   }
 
   table {
